@@ -73,16 +73,16 @@ def main():
 ║ Spider Tool | v1.0.4 | Made by Fear                                              ║
 ║══════════════════════════════════════════════════════════════════════════════════║
 ║                                                                                  ║
-║ [1] > Tool Info                 [11] > Discord Token Info                        ║
-║ [2] > IP Info                   [12] > Discord Token Nuker                       ║
-║ [3] > DDOS (#soon)              [13] > Discord Token Joiner                      ║
-║ [4] > Mass Report (#soon)       [14] > Discord Token BruteForce                  ║
-║ [5] > Phone Number Lookup       [15] > N/A                                       ║
-║ [6] > Mail Info                 [16] > Discord Token Generator                   ║
-║ [7] > Username Tracker          [17] > Discord Nitro Generator                   ║
-║ [8] > SQL Vulnerability         [18] > Discord Server Info                       ║
-║ [9] > Discord Raid              [19] > Web Cloner (#soon)                        ║
-║ [10] > Dmall                    [20] > Next Page (1/2) (#soon)                   ║
+║ [1] > Dark Web Links                 [11] > Discord Token Info                        ║
+║ [2] > Vulnerability Scanner         [12] > Discord Token Nuker                       ║
+║ [3] > Username Tracker             [13] > Discord Token Joiner                      ║
+║ [4] > Ip Scanner     [14] > Discord Token BruteForce                  ║
+║ [5] > Email Tracker     [15] > N/A                                       ║
+║ [6] > Email Info                 [16] > Discord Token Generator                   ║
+║ [7] > Discord Token Info          [17] > Discord Nitro Generator                   ║
+║ [8] > Discord Token Login        [18] > Discord Server Info                       ║
+║ [9] > Mass DM              [19] > Web Cloner (#soon)                        ║
+║ [10] > Discord Guild Info                  [20] > Next Page (1/2) (#soon)                   ║
 ║                                                                                  ║
 ╚══════════════════════════════════════════════════════════════════════════════════╝
    """
@@ -94,30 +94,28 @@ def main():
             choice = int(input('Choice >> '))
             def choice_script(choice):
                 if choice == 0:
-                    os.system('python ./tools/discord.py')
+                    os.system('python ./tools/Dark-Web-Links.py')
                 elif choice == 1:
-                    os.system('python ./tools/tool_info.py')
+                    os.system('python ./tools/Website-Vulnerability-Scanner.py')
                 elif choice == 2:
-                    os.system('python ./tools/geoip.py')
+                    os.system('python ./tools/Username-Tracker.py')
                 elif choice == 3:
-                    os.system('python ./cyb3rtech.py')
+                    os.system('python ./IP-Scanner.py')
                 elif choice == 4:
-                    os.system('python ./cyb3rtech.py')
+                    os.system('python ./tooms/Email-Tracker.py')
                 elif choice == 5:
-                    os.system('python ./tools/phone_number.py')
+                    os.system('python ./tools/Email-Lookup.py')
                 elif choice == 6:
-                    os.system('python ./tools/mail_info.py')
+                    os.system('python ./tools/Discord-Token-Info.py')
                 elif choice == 7:
-                    os.system('python ./tools/username_tracker.py')
+                    os.system('python ./tools/Discord-Token-Login.py')
                 elif choice == 8:
-                    os.system('python ./tools/sql_vulnerability.py')
+                    os.system('python ./tools/Discord-Token-Mass-Dm.py')
                 elif choice == 9:
-                    os.system('python ./tools/discord_raid.py')
+                    os.system('python ./tools/Discord-Server-Info.py')
                 elif choice == 10:
-                    os.system('python ./tools/dmall.py')
+                    os.system('python ./tools/Discord-Token-Generator.py')
                 elif choice == 11:
-                    os.system('python ./tools/discord_token_info.py')
-                elif choice == 12:
                     os.system('python ./tools/discord_token_nuker.py')
                 elif choice == 13:
                     os.system('python ./tools/discord_token_joiner.py')
