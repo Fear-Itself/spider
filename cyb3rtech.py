@@ -69,22 +69,22 @@ def main():
                        ░                      
 
 
-╔══════════════════════════════════════════════════════════════════════════════════╗
-║ Spider Tool | v1.0.4 | Made by Fear                                              ║
-║══════════════════════════════════════════════════════════════════════════════════║
-║                                                                                  ║
+╔═══════════════════════════════════════════════════════════════════════════════════════╗
+║ Spider Tool | v1.0.4 | Made by Fear                                                   ║
+║═══════════════════════════════════════════════════════════════════════════════════════║
+║                                                                                       ║
 ║ [1] > Dark Web Links                 [11] > Discord Token Info                        ║
-║ [2] > Vulnerability Scanner         [12] > Discord Token Nuker                       ║
-║ [3] > Username Tracker             [13] > Discord Token Joiner                      ║
-║ [4] > Ip Scanner     [14] > Discord Token BruteForce                  ║
-║ [5] > Email Tracker     [15] > N/A                                       ║
-║ [6] > Email Info                 [16] > Discord Token Generator                   ║
-║ [7] > Discord Token Info          [17] > Discord Nitro Generator                   ║
-║ [8] > Discord Token Login        [18] > Discord Server Info                       ║
-║ [9] > Mass DM              [19] > Web Cloner (#soon)                        ║
-║ [10] > Discord Guild Info                  [20] > Next Page (1/2) (#soon)                   ║
-║                                                                                  ║
-╚══════════════════════════════════════════════════════════════════════════════════╝
+║ [2] > Vulnerability Scanner          [12] > Discord Token Nuker                       ║
+║ [3] > Username Tracker               [13] > Discord Token Joiner                      ║
+║ [4] > Ip Scanner                     [14] > Discord Token BruteForce                  ║
+║ [5] > Email Tracker                  [15] > N/A                                       ║
+║ [6] > Email Info                     [16] > Discord Token Generator                   ║
+║ [7] > Discord Token Info             [17] > Discord Nitro Generator                   ║
+║ [8] > Discord Token Login            [18] > Discord Server Info                       ║
+║ [9] > Mass DM                        [19] > Web Cloner (#soon)                        ║
+║ [10] > Discord Guild Info            [20] > Next Page (1/2) (#soon)                   ║
+║                                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════════════════════╝
    """
     
     while True:
